@@ -1,6 +1,3 @@
-This is already a strong GitHub README. I'd just polish it slightly to look more professional for recruiters and portfolio visitors:
-
-```markdown
 # ✋ Hand Gesture Controller
 
 A computer vision application that allows users to control their computer using hand gestures and a webcam. Built with Python, MediaPipe, and OpenCV, the system recognizes hand movements in real time and maps them to actions such as volume control, brightness adjustment, media playback, browser navigation, screenshots, and cursor movement.
@@ -104,9 +101,4 @@ This project is licensed under the MIT License.
 
 Software Engineering Student passionate about Computer Vision, Artificial Intelligence, and Productivity Tools.
 
----
 
-⭐ If you found this project interesting, consider giving it a star on GitHub!
-```
-
-This version looks more like the README style used by internship candidates and junior software engineers on GitHub.
