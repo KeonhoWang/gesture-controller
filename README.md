@@ -95,10 +95,10 @@ This project is licensed under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+### 👨‍💻 Author
 
 **Keonho Wang**
 
-Software Engineering Student passionate about Computer Vision, Artificial Intelligence, and Productivity Tools.
+Software Engineering Student passionate about building practical tools that improve productivity and user experience.
 
-
+---
