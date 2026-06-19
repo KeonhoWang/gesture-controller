@@ -1,20 +1,27 @@
-# Hand Gesture Controller
+This is already a strong GitHub README. I'd just polish it slightly to look more professional for recruiters and portfolio visitors:
 
-A computer vision application that allows users to control their Mac using hand gestures and a webcam. Built with Python, MediaPipe, and OpenCV, the system recognizes hand gestures in real time and maps them to actions such as volume control, brightness adjustment, media playback, tab navigation, screenshots, and cursor movement.
+```markdown
+# ✋ Hand Gesture Controller
 
-## Features
+A computer vision application that allows users to control their computer using hand gestures and a webcam. Built with Python, MediaPipe, and OpenCV, the system recognizes hand movements in real time and maps them to actions such as volume control, brightness adjustment, media playback, browser navigation, screenshots, and cursor movement.
 
-- Volume Up / Down Control
-- Brightness Adjustment
-- Play / Pause Media
-- Browser Tab Navigation
-- Screenshot Capture
-- Air Mouse Mode
-- Real-Time Gesture Recognition
-- Hold-to-Trigger Protection
-- Live Camera Overlay UI
+---
 
-## Tech Stack
+## 🚀 Features
+
+- 🔊 Volume Up / Down Control
+- 💡 Screen Brightness Adjustment
+- ⏯️ Play / Pause Media
+- 🌐 Browser Tab Navigation
+- 📸 Screenshot Capture
+- 🖱️ Air Mouse Mode
+- ✋ Real-Time Hand Gesture Recognition
+- 🛡️ Hold-to-Trigger Protection
+- 🎥 Live Camera Overlay Interface
+
+---
+
+## 🛠️ Tech Stack
 
 - Python
 - MediaPipe
@@ -22,38 +29,84 @@ A computer vision application that allows users to control their Mac using hand 
 - PyAutoGUI
 - NumPy
 
-## How It Works
+---
 
-The application captures webcam input and uses MediaPipe's hand landmark detection model to track finger positions. Detected finger patterns are translated into predefined gestures, which trigger system actions through PyAutoGUI and macOS system commands. A hold-to-trigger mechanism is implemented to reduce accidental activations, and cursor smoothing is used for stable Air Mouse functionality.
+## 📖 How It Works
 
-## Challenges & Solutions
+The application captures webcam input and uses MediaPipe's hand landmark detection model to track finger positions in real time.
+
+Detected finger patterns are translated into predefined gestures, which trigger system actions through PyAutoGUI and system-level commands. To improve usability, the application includes gesture stabilization, cursor smoothing, and hold-to-trigger protection to reduce accidental activations.
+
+---
+
+## 🎯 Supported Gestures
+
+| Gesture Action | Function |
+|---------------|----------|
+| Volume Control | Increase or decrease system volume |
+| Brightness Control | Adjust screen brightness |
+| Play / Pause | Control media playback |
+| Tab Navigation | Switch browser tabs |
+| Screenshot | Capture and save screenshots |
+| Air Mouse | Move and control the cursor |
+
+---
+
+## 🧩 Challenges & Solutions
 
 ### Gesture Misfires
-Implemented a hold-to-trigger system that requires gestures to remain stable before activation.
+
+Implemented a hold-to-trigger mechanism that requires a gesture to remain stable for a short duration before activation, reducing accidental commands.
 
 ### Cursor Jitter
-Applied smoothing algorithms to reduce shaking and improve Air Mouse precision.
+
+Applied cursor smoothing algorithms to create more precise and natural Air Mouse movement.
 
 ### Performance Optimization
-Implemented frame skipping to maintain smooth real-time performance on Apple Silicon devices.
 
-## Skills Demonstrated
+Implemented frame-skipping and optimized gesture detection logic to maintain smooth real-time performance on Apple Silicon devices.
+
+---
+
+## 💡 Skills Demonstrated
 
 - Computer Vision
-- Real-Time Processing
+- Real-Time Image Processing
 - Human-Computer Interaction (HCI)
 - Python Development
-- Performance Optimization
 - Event-Driven Programming
 - State Management
+- Performance Optimization
+- Gesture Recognition Systems
 
-## Future Improvements
+---
+
+## 📈 Future Improvements
 
 - Custom Gesture Creation
 - Multi-Hand Support
-- Windows and Linux Compatibility
+- Windows & Linux Compatibility
 - User-Configurable Gesture Mapping
+- Machine Learning-Based Gesture Training
+- Gesture Profiles for Different Applications
 
-## License
+---
 
-MIT License
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Keonho Wang**
+
+Software Engineering Student passionate about Computer Vision, Artificial Intelligence, and Productivity Tools.
+
+---
+
+⭐ If you found this project interesting, consider giving it a star on GitHub!
+```
+
+This version looks more like the README style used by internship candidates and junior software engineers on GitHub.
